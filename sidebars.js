@@ -7,12 +7,12 @@
 
 module.exports = {
   "javascript": {
-    "1. 基础概念": [
+    "1. Basic Concepts": [
       "javascript/1.basic/js-engine",
       "javascript/1.basic/scope",
       "javascript/1.basic/execute-context",
     ],
-    "2. 内存管理": [
+    "2. Memory Management": [
       "javascript/2.memory/memory-space",
       "javascript/2.memory/memory-check",
       "javascript/2.memory/old-new-space",
@@ -20,14 +20,14 @@ module.exports = {
       "javascript/2.memory/memory-leak",
       "javascript/2.memory/gc-optimization",
     ],
-    "3. 闭包": [
+    "3. Closure": [
       "javascript/3.closure/closure-external",
       "javascript/3.closure/closure-internal",
       "javascript/3.closure/closure-issues",
       "javascript/3.closure/closure-application",
       "javascript/3.closure/summary-test",
     ],
-    "4. 函数": [
+    "4. Function": [
       "javascript/4.function/function-overview",
       "javascript/4.function/context-this",
       "javascript/4.function/function-params",
@@ -35,28 +35,28 @@ module.exports = {
       "javascript/4.function/iife",
       "javascript/4.function/chained-call",
     ],
-    "5. 类型机制": [
+    "5. Typing": [
       "javascript/5.typing/is-type",
       "javascript/5.typing/type-conversion",
       "javascript/5.typing/equal",
       "javascript/5.typing/clone",
       "javascript/5.typing/data-binding",
     ],
-    "6. 模块机制": [
+    "6. Modules": [
       "javascript/6.modules/amd-cmd-umd",
       "javascript/6.modules/es6-module",
       "javascript/6.modules/import()",
       "javascript/6.modules/browser-import",
       "javascript/6.modules/babel",
     ],
-    "7. 引用类型": [
+    "7. Reference Type": [
       "javascript/7.reference-type/array",
       "javascript/7.reference-type/object",
       "javascript/7.reference-type/regex",
       "javascript/7.reference-type/date",
       "javascript/7.reference-type/set-map",
     ],
-    "8. 面向对象编程": [
+    "8. Object Oriented Programming": [
       "javascript/8.object-oriented-programming/constructor",
       "javascript/8.object-oriented-programming/create-instance",
       "javascript/8.object-oriented-programming/prototype-chain",
@@ -64,7 +64,7 @@ module.exports = {
       "javascript/8.object-oriented-programming/class",
       "javascript/8.object-oriented-programming/super",
     ],
-    "9. 异步编程": [
+    "9. Async Programming": [
       "javascript/9.async-programming/macro-micro-task",
       "javascript/9.async-programming/event-loop",
       "javascript/9.async-programming/timer",
@@ -72,26 +72,26 @@ module.exports = {
       "javascript/9.async-programming/promise",
       "javascript/9.async-programming/async-await",
     ],
-    "10. 响应式编程": [
+    "10. Reactive Programming": [
       "javascript/10.reactive-programming/race-condition",
     ],
-    "11. 性能优化": [
+    "11. Performance": [
       "javascript/11.performance-optimization/debounce",
       "javascript/11.performance-optimization/throttle",
       "javascript/11.performance-optimization/memoization",
       "javascript/11.performance-optimization/tco",
     ],
-    "附录": [
+    "Appendix": [
       "javascript/appendix1-references",
       "javascript/appendix2-related-websites"
     ]
   },
   "html": {
-    "前言": [
+    "Preface": [
       "html/preface/overview",
       "html/preface/note",
     ],
-    "标签": [
+    "Tags": [
       "html/tag/html-structure",
       "html/tag/head-info",
       "html/tag/section-divisions",
@@ -106,7 +106,7 @@ module.exports = {
     ]
   },
   "css": {
-    "1. 视觉格式化模型": [
+    "1. Visual Formatting Model": [
       "css/1.visual-formatting-model/basic-concept",
       "css/1.visual-formatting-model/box-model",
       "css/1.visual-formatting-model/normal-flow",
@@ -114,7 +114,7 @@ module.exports = {
       "css/1.visual-formatting-model/position",
       "css/1.visual-formatting-model/z-index",
     ],
-    "2. 单位与字体": [
+    "2. Unit & Font": [
       "css/2.unit-font/px",
       "css/2.unit-font/percentage",
       "css/2.unit-font/em",
@@ -122,32 +122,32 @@ module.exports = {
       "css/2.unit-font/viewport",
       "css/2.unit-font/font",
     ],
-    "3. 布局": [
+    "3. Layout": [
       "css/3.layout/flex",
       "css/3.layout/grid",
       "css/3.layout/cols",
       "css/3.layout/rows",
     ],
-    "4. 居中": [
+    "4. Center": [
       "css/4.center/horizontal-center",
       "css/4.center/vertical-middle",
       "css/4.center/horizontal-vertical-center",
     ],
-    "5. 动效": [
+    "5. Animation & Effects": [
       "css/5.animation/bezier-curve",
       "css/5.animation/transition",
       "css/5.animation/animation",
     ],
-    "6. 响应式设计": [
+    "6. Responsive Design": [
       "css/6.responsive-design/media-query",
       "css/6.responsive-design/responsive-adaptive",
     ],
-    "附录": [
+    "Appendix": [
       "css/appendix/related-websites"
     ]
   },
   "web": {
-    "1. HTTP 协议": [
+    "1. HTTP": [
       "web/1.http/http-connection",
       "web/1.http/http-status",
       "web/1.http/http-cache",
@@ -155,13 +155,13 @@ module.exports = {
       "web/1.http/http2",
       "web/1.http/https",
     ],
-    "2. 跨域请求": [
+    "2. Cross Domain": [
       "web/2.cross-domain/same-origin-policy",
       "web/2.cross-domain/jsonp",
       "web/2.cross-domain/cors",
       "web/2.cross-domain/websocket"
     ],
-    "3. 数据传输": [
+    "3. Data Transmission": [
       "web/3.data-transmission/url",
       "web/3.data-transmission/json",
       "web/3.data-transmission/ajax",
@@ -169,22 +169,22 @@ module.exports = {
       "web/3.data-transmission/form",
       "web/3.data-transmission/file",
     ],
-    "4. 浏览器": [
+    "4. Browser": [
       "web/4.browser/window",
       "web/4.browser/navigator",
       "web/4.browser/rendering-engine",
     ],
-    "5. 渲染与加载": [
+    "5. Render & Load": [
       "web/5.render-load/page-rendering",
       "web/5.render-load/script",
       "web/5.render-load/reflow-repaint",
       "web/5.render-load/DOMContentLoaded",
     ],
-    "6. 跨文档通信": [
+    "6. Cross Document": [
       "web/6.cross-document/iframe",
       "web/6.cross-document/postMassage",
     ],
-    "7. 前端路由": [
+    "7. Router": [
       "web/7.rooter/hash-rooter",
       "web/7.rooter/history-rooter",
     ],
@@ -195,19 +195,19 @@ module.exports = {
       "web/8.dom/event-object",
       "web/8.dom/event-type",
     ],
-    "9. 动效 & 绘图": [
+    "9. Graphics & Effects": [
       "web/9.graphics-effects/js-animation",
       "web/9.graphics-effects/canvas",
       "web/9.graphics-effects/webgl",
     ],
-    "10. 离线 & 存储": [
+    "10. Offline & Storage": [
       "web/10.offline-storage/webstorage",
       "web/10.offline-storage/IndexedDB",
       "web/10.offline-storage/web-SQL",
       "web/10.offline-storage/service-workers",
       "web/10.offline-storage/summary"
     ],
-    "11. Web 安全机制": [
+    "11. Web Security": [
       "web/11.web-security/cookie",
       "web/11.web-security/session",
       "web/11.web-security/OAuth",
@@ -215,7 +215,7 @@ module.exports = {
       "web/11.web-security/CSRF",
       "web/11.web-security/XSS"
     ],
-    "12. Web 性能优化": [
+    "12. Web Performance": [
       "web/12.web-optimize/pic-optimize",
       "web/12.web-optimize/lazy-loading",
       "web/12.web-optimize/http-cache",
@@ -223,7 +223,7 @@ module.exports = {
     ],
   },
   "react": {
-    "1. 组件基础": [
+    "1. Basis": [
       "react/1.basic/jsx",
       "react/1.basic/lifecycle",
       "react/1.basic/state",
@@ -232,26 +232,26 @@ module.exports = {
       "react/1.basic/event",
       "react/1.basic/style"
     ],
-    "2. 组件进阶": [
+    "2. Advanced": [
       "react/2.advanced/render-props",
       "react/2.advanced/hoc",
       "react/2.advanced/hook",
       "react/2.advanced/context",
       "react/2.advanced/portal",
     ],
-    "3. 组件优化": [
+    "3. Optimization": [
       "react/3.optimization/performance",
       "react/3.optimization/pure-component",
       "react/3.optimization/memo",
       "react/3.optimization/code-splitting",
       "react/3.optimization/suspense",
     ],
-    "4. 三大组件": [
+    "4. Three Main Components": [
       "react/4.three-components/container-component",
       "react/4.three-components/presentational-component",
       "react/4.three-components/ui-component",
     ],
-    "5. 状态管理": [
+    "5. State Management": [
       "react/5.state-management/redux",
       "react/5.state-management/store",
       "react/5.state-management/action",
@@ -260,57 +260,57 @@ module.exports = {
       "react/5.state-management/selector",
       "react/5.state-management/model"
     ],
-    "6. 路由管理": [
+    "6. Router Management": [
       "react/6.router-management/router",
       "react/6.router-management/route",
       "react/6.router-management/link"
     ],
-    "7. 测试": [
+    "7. Test": [
       "react/7.test/test-category",
       "react/7.test/unit-test",
       "react/7.test/component-test",
       "react/7.test/state-test"
     ],
-    "8. 安全": [
+    "8. Security": [
       "react/8.security/security-guide"
     ],
-    "附录": [
+    "Appendix": [
       "react/appendix/references",
       "react/appendix/related-websites"
     ]
   },
   "design-patterns": {
-    '3. 行为模式': [
+    '3. Design Patterns': [
       'design-patterns/3.behavior-pattern/observer',
       'design-patterns/3.behavior-pattern/pub-sub',
     ]
   },
   "algorithm": {
-    "1. 数组": [
+    "1. Array": [
       "algorithm/1.array/duplicated-number-in-array",
       "algorithm/1.array/inverse-pairs",
     ],
-    "2. 栈与队列": [
+    "2. Stack & Queue": [
       "algorithm/3.stack-queue/min-stack",
     ],
-    "4. 链表": [
+    "4. LinkedList": [
       "algorithm/4.linkedlist/merge-two-sorted-lists",
     ],
-    "5. 二叉树": [
+    "5. Binary Tree": [
       "algorithm/5.binary-tree/build-tree",
       "algorithm/5.binary-tree/mirror-tree",
       "algorithm/5.binary-tree/subtree",
       "algorithm/5.binary-tree/maximum-depth-of-binary-tree",
       "algorithm/5.binary-tree/balanced-binary-tree",
     ],
-    "8. 排序": [
+    "8. Sort": [
       "algorithm/8.sort/merged-sort",
       "algorithm/8.sort/quick-sort",
     ],
-    "9. 查找": [
+    "9. Search": [
       {
         type: 'category',
-        label: '二分查找',
+        label: 'Binary Search',
         items: [
           "algorithm/9.search/number-same-as-index",
           "algorithm/9.search/number-in-sorted-array",
@@ -326,26 +326,26 @@ module.exports = {
       },
       {
         type: 'category',
-        label: '哈希表',
+        label: 'Hash Table',
         items: [
           "algorithm/9.search/first-unique-character",
         ],
       },
     ],
-    "10. 回溯法": [
+    "10. Back Tracking": [
       "algorithm/10.back-tracking/permutation",
       "algorithm/10.back-tracking/combination",
       "algorithm/10.back-tracking/n-queens",
     ],
-    "11. 位运算": [
+    "11. Bit Operation": [
       "algorithm/11.bit-operation/single-number",
     ],
-    "12. 反转和旋转": [
+    "12. Reverse & Rotate": [
       "algorithm/12.reverse/reverse-linked-list",
       "algorithm/12.reverse/rotate-string",
       "algorithm/12.reverse/reverse-integer",
     ],
-    "13. 数学": [
+    "13. Math": [
       "algorithm/13.math/powx-n",
     ]
   },
