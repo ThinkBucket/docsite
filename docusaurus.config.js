@@ -190,13 +190,18 @@ module.exports = {
         {
           label: 'Backend',
           position: 'right',
-          activeBaseRegex: 'docs/(java/)',
+          activeBaseRegex: 'docs/(java|sql)',
           items: [
             {
               to:
                 'docs/java/object-oriented-programming/abstract-class-interface',
               activeBasePath: 'docs/java/',
               label: 'Java'
+            },
+            {
+              to: 'docs/sql/get-started/intro-to-sql',
+              activeBasePath: 'docs/sql/',
+              label: 'SQL'
             }
           ]
         },
